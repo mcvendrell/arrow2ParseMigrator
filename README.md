@@ -12,15 +12,13 @@ For each user with Scores, will import every Score in Parse. That's all.
 You can easily add your own schemas or modify the logic for your own purposes.
 
 ## Key files
-You need to provide your Arrow and Parse API KEYS: check the *keys.js* file
-You probably will need to change the logic of the imported objects to your own: check the *routes/start.js* file
+* You need to provide your Arrow and Parse API KEYS: check the *keys.js* file
+* You probably will need to change the logic of the imported objects to your own: check the *routes/start.js* file
 
 ## Run
 To run the project locally, simply execute `npm start` inside the project folder
 
 If you want to run in DEBUG mode:
-On Windows:
-`set DEBUG=arrow2parsemigrator:* & npm start`
 
-On Linux:
-`DEBUG=arrow2parsemigrator:* & npm start`
+* On Windows: `set DEBUG=arrow2parsemigrator:* & npm start`
+* On Linux: `DEBUG=arrow2parsemigrator:* & npm start`
