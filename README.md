@@ -22,3 +22,7 @@ If you want to run in DEBUG mode:
 
 * On Windows: `set DEBUG=arrow2parsemigrator:* & npm start`
 * On Linux: `DEBUG=arrow2parsemigrator:* & npm start`
+
+
+![Image 1](https://github.com/mcvendrell/arrow2ParseMigrator/blob/master/public/images/Index.png)
+![Image 2](https://github.com/mcvendrell/arrow2ParseMigrator/blob/master/public/images/Start.png)
