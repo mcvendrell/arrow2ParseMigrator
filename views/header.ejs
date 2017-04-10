@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ArrowDB2ParseServer migration tool</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tool to migrate ArrowDB data from Appcelerator to ParseServer">
+    <meta name="keywords" content="manuel; conde; vendrell; appcelerator; arrow; arrowDB; parse; parseserver">
+    <meta name="author" content="Manuel Conde">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/jumbotron-narrow.css" rel="stylesheet">
+    
+    <!-- Custom styles for login template -->
+    <link href="/css/signin.css" rel="stylesheet">
+    
+    <!-- Own overwriting styles -->
+    <link href="/css/style.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+    <div class="container">
+      <div id="fade"></div>
+      <div id="loading">
+        <img id="loader" src="/images/loading.gif" />
+      </div>  
+  
+      <div class="header" style="border-bottom: 1px solid #e5e5e5;">
+        <div style="margin-top: 0px;">
+          <table>
+            <tr>
+              <td><a href="/"><img src="/images/logo.png" alt="MigrateTool"></a></td>
+              <td style="padding-left: 10px;"><h3 class="text-muted" style="padding-bottom: initial;">Migrate Tool</h3></td>
+            </tr>
+          </table>
+        </div>
+
+        <% if (typeof username !== 'undefined') { %>
+          <p class="text-right" style="margin-top: -10px">
+            Logged in as <%= username %> (<a href="/logout">Logout</a>)
+          <p> 
+        <% } else { %>
+          <p class="text-right" style="margin-top: -10px">&nbsp;<p> 
+        <% } %>
+    </div>
+      

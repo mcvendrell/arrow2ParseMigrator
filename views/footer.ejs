@@ -1,0 +1,41 @@
+      <div class="footer">
+        <p style="float: left">&copy; Manuel Conde 2017</p>
+      </div>
+
+    </div> <!-- container from body -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Other JavaScript that uses jQuery, always at the end
+    ================================================== -->
+    
+    <script>
+        // Functions for loading splash image
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('fade').style.display = 'block';
+        }
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('fade').style.display = 'none';
+        }
+
+        $(document).ajaxStart(function() {
+            showLoading();
+        });
+        
+        $(document).ajaxStop(function() {
+            hideLoading();
+        });
+    </script>
+
+  </body>
+</html>

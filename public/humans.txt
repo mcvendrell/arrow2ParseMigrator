@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Manuel Conde Vendrell -- none -- @mcvendrell
+
+# THANKS
+
+    Names (& URL):
+    Appcelerator Titanium Team (http://appcelerator.com/) for the ArrowDB server
+    Back4App Team (https://www.back4app.com/) for the Parse server
+    Bootstrap Team (http://getbootstrap.com/)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, Bootstrap

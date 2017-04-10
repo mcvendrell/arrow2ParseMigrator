@@ -1,0 +1,138 @@
+div .container-data {
+    min-height: 500px;
+}
+
+div .title {
+    font-size: 22px;
+    font-family: cursive;
+}
+
+h3 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.width50 {
+    width: 49%;
+}
+
+.width33 {
+    width: 33%;
+}
+
+.narrow-col {
+    width: 30px;
+}
+
+.strech-col {
+    width: 60px;
+}
+
+.center-col {
+    text-align: center;
+}
+
+.mandatory {
+    background-color: #BDE9FD;
+}
+
+.about h4 {
+    text-align: center;
+    margin-top: 25px;
+    color: #428bca;
+}
+
+.add-form {
+    background: #EDF2F6;
+    padding: 15px;
+    border: 3px solid #C5D7E2;
+    box-shadow: 5px 5px 5px #888;
+    position: absolute;
+    top: 280px;
+    left: 20%;
+    display: none;
+    border-radius: 15px;
+}
+
+.form-check {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.footer {
+	color: #B6521A;
+	
+}
+
+.about_p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+#popup-info {
+    background: #EDF2F6;
+    padding: 15px;
+    border: 3px solid #C5D7E2;
+    box-shadow: 5px 5px 5px #888;
+    position: absolute;
+    top: 280px;
+    left: 21%;
+    text-align: center;
+    display: none;
+    border-radius: 15px;
+}
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ababab;
+    z-index: 1001;
+    -moz-opacity: 0.5;
+    opacity: .50;
+    filter: alpha(opacity=50);
+}
+#loading {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    padding: 30px 15px 0px;
+    border: 3px solid #ababab;
+    box-shadow: 1px 1px 10px #ababab;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 1002;
+    text-align: center;
+    overflow: auto;
+}
+
+@media all and (min-width: 600px) {
+    .add-form {
+        width: 500px;
+        top: 260px;
+        left: 35%;
+    }
+}

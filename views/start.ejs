@@ -1,0 +1,18 @@
+<% include header.ejs %>
+
+        <div class="container-data">
+          <div class="jumbotron">
+            <h1>Ready to begin</h1>
+            <p class="lead">Hit "Start" button to start the process, and check the console</p>
+            <div>
+              <form class="form-signin" action="/start" method="post">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Start !</button>
+              </form>
+            </div>
+          </div>
+          <div class="alert alert-success" style="text-align:center">
+              <%=message%>
+          </div>
+      </div>
+
+<% include footer.ejs %>

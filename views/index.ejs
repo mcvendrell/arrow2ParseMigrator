@@ -1,0 +1,17 @@
+<% include header.ejs %>
+
+        <div class="container-data">
+          <div class="jumbotron">
+            <h1>Login to Start</h1>
+            <p class="lead">To use the tool, you must login first into ArrowDB as an admin user</p>
+            <div>
+              <form class="form-signin" action="/login" method="post">
+                <input class="form-control" type="text" name="username" value="amarutek" placeholder="Username" autofocus required>
+                <input class="form-control" type="password" name="password" value="098744" placeholder="Password" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              </form>
+            </div>
+          </div>
+      </div>
+
+<% include footer.ejs %>
